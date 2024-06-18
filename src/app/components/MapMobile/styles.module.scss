@@ -1,0 +1,27 @@
+.main {
+  height: 80vh;
+  width: 100vw;
+  background-color: #3b3f33;
+}
+.title {
+  font-size: 64px;
+  font-family: var(--themysion);
+  color: #fff;
+  width: 100vw;
+  text-align: center;
+  padding-top: 40px;
+}
+.address {
+  font-size: 13px;
+  color: #fff;
+  width: 100vw;
+  text-align: center;
+  font-family: var(--dm_sans);
+}
+.mapCont {
+  display: flex;
+  width: 100vw;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}

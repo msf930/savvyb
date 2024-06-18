@@ -1,0 +1,72 @@
+.contact {
+  background-color: #71685e;
+
+  height: 85vh;
+  width: 100vw;
+}
+.title {
+  font-size: 64px;
+  font-family: var(--themysion);
+  color: #fff;
+  width: 100vw;
+  text-align: center;
+  padding-top: 40px;
+}
+.item {
+  display: flex;
+  gap: 30px;
+  margin-left: 40px;
+  margin-bottom: 28px;
+}
+.label {
+  font-family: var(--dm_sans);
+  width: 25vw;
+  color: #fff;
+}
+.input {
+  width: 40vw;
+  border: 0px;
+  border-bottom: 1px solid white;
+  color: #fff;
+  background-color: #71685e;
+}
+.inputArea {
+  width: 40vw;
+  height: 10vh;
+  border: 0px;
+  border-bottom: 2px solid white;
+  color: #fff;
+  background-color: #71685e;
+}
+.radioCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 8px;
+  font-family: var(--dm_sans);
+}
+.itemsCont {
+  display: flex;
+  gap: 16px;
+}
+.radioItem {
+  display: flex;
+  gap: 3px;
+  font-family: var(--dm_sans);
+}
+.btnCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 40px;
+}
+.btn {
+  color: #1e1e1e;
+  background-color: #c5bcae;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
