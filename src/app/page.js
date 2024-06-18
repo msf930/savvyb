@@ -2,21 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 import Grass from "../../public/grass.png";
-import HomeTomb from "../../public/homeTomb.png";
 import Logo from "../../public/Logo.png";
 import Sun from "../../public/sunIcon.png";
 import Circle from "../../public/Circle.png";
-import BoothImg from "../../public/BoothImg.png";
-import BoothTomb from "../../public/BoothTomb.png";
 import CircleDark from "../../public/CircleDark.png";
-import NailImg from "../../public/NailTomb.png";
 import NailShape from "../../public/NailTombShape.png";
-import StudioImg from "../../public/StudioImg.png";
 import StudioShape from "../../public/StudioShape.png";
-import HeroImg from "../../public/heroImgLrg.png";
 import BoothRightImg from "../../public/boothRentalRightImg.png";
-import DeskNailImg from "../../public/deskNailImg.png";
-import DeskStudioImg from "../../public/deskStudioImg.png";
 
 import FormMobile from "./components/FormMobile/Index";
 import MapMobile from "./components/MapMobile";
@@ -25,8 +17,6 @@ import DeskMap from "./components/DeskMap";
 import FormDesk from "./components/FormDesk";
 
 import { IoLogoFacebook, IoLogoInstagram, IoIosMail } from "react-icons/io";
-
-import { getHome } from "../../sanity/lib/query";
 
 async function getData() {
   const res = await fetch(
