@@ -36,8 +36,8 @@ const NavBar = () => {
     <header>
       <nav>
         <div className={header}>
-          <div className="container px-5 h-full w-full">
-            <div className="flex justify-evenly items-center h-full w-full">
+          <div className="headContMain">
+            <div className="headCont">
               <div className="headBuffer"></div>
               <div className="flex flex-row items-center justify-center text-center">
                 <Link href="/">
@@ -50,7 +50,7 @@ const NavBar = () => {
                 </Link>
               </div>
 
-              <div className="flex sm:hidden black" onClick={handleShowNavbar}>
+              <div className="navHam" onClick={handleShowNavbar}>
                 <div className={navIcon}>
                   <span></span>
                   <span></span>

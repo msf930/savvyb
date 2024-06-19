@@ -11,9 +11,9 @@ import StudioShape from "../../public/StudioShape.png";
 import BoothRightImg from "../../public/boothRentalRightImg.png";
 
 import FormMobile from "./components/FormMobile/Index";
-import MapMobile from "./components/MapMobile/index";
+import MapMobile from "./components/MapMobile/Index";
 
-import DeskMap from "./components/DeskMap/index";
+import DeskMap from "./components/DeskMap/Index";
 import FormDesk from "./components/FormDesk/Index";
 
 import { IoLogoFacebook, IoLogoInstagram, IoIosMail } from "react-icons/io";
@@ -232,7 +232,9 @@ export default async function Home() {
             </p>
           </div>
           <div className="footerText">
-            <p>Savvy B Studio & Collective Copyright 2024</p>
+            <p>
+              Savvy B Studio & Collective <br /> Copyright 2024
+            </p>
           </div>
         </div>
       </div>
