@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 import Grass from "../../public/grass.png";
 import Logo from "../../public/Logo.png";
@@ -78,9 +77,9 @@ export default async function Home() {
           </div>
           <div className="homeText">
             <h3>{data.homeText}</h3>
-            <Link href={data.loopNetURL}>
+            <a target="_blank" href={data.loopNetURL}>
               <button className="homeBtn">Apply Now</button>
-            </Link>
+            </a>
           </div>
         </div>
         <div className="about">
@@ -127,9 +126,9 @@ export default async function Home() {
           </div>
           <div className="rentTextCont">
             <h3 className="rentText">{data.boothText}</h3>
-            <Link href={data.loopNetURL}>
+            <a target="_blank" href={data.loopNetURL}>
               <button className="homeBtn">Apply Now</button>
-            </Link>
+            </a>
           </div>
         </div>
         <div className="nailRental" id="nail">
@@ -159,9 +158,9 @@ export default async function Home() {
           </div>
           <div className="studioTextCont">
             <h3 className="studioText">{data.nailText}</h3>
-            <Link href={data.loopNetURL}>
+            <a target="_blank" href={data.loopNetURL}>
               <button className="homeBtnNail">Apply Now</button>
-            </Link>
+            </a>
           </div>
         </div>
         <div className="studioRental" id="studio">
@@ -194,9 +193,9 @@ export default async function Home() {
           </div>
           <div className="studioTextCont">
             <h3 className="studioText">{data.studioText}</h3>
-            <Link href={data.loopNetURL}>
+            <a target="_blank" href={data.loopNetURL}>
               <button className="homeBtnNail">Apply Now</button>
-            </Link>
+            </a>
           </div>
         </div>
         <div id="contact">
@@ -242,10 +241,25 @@ export default async function Home() {
         <div className="deskHeader"></div>
         <div className="heroCont">
           <div className="heroLogoCont">
-            <Image src={Logo} alt="Savvy B Logo" height={286} width={286} />
+            <div className="heroLogoFillCont">
+              <Image
+                src={Logo}
+                alt="Savvy B Logo"
+                fill={true}
+                loading="eager"
+              />
+            </div>
           </div>
           <div className="heroImgCont">
             <Image src={data.deskHomeUrl} alt="Hair salon booths" fill={true} />
+          </div>
+        </div>
+        <div className="deskAbout">
+          <div className="deskAboutImg">
+            <Image src={Sun} alt="sun" />
+          </div>
+          <div className="deskAboutText">
+            <p>{data.aboutText}</p>
           </div>
         </div>
         <div className="deskBooth">
@@ -276,9 +290,9 @@ export default async function Home() {
             <div className="deskBoothTextCont">
               <h2 className="boothTextTitle">{data.boothTitle}</h2>
               <p className="boothTextBody">{data.boothText}</p>
-              <Link href={data.loopNetURL}>
+              <a target="_blank" href={data.loopNetURL}>
                 <button className="deskBoothBtn">Apply Now</button>
-              </Link>
+              </a>
             </div>
             <div className="deskBoothRightImgCont">
               <Image src={BoothRightImg} alt="pink mountains moon" />
@@ -288,14 +302,7 @@ export default async function Home() {
             </div>
           </div>
         </div>
-        <div className="deskAbout">
-          <div className="deskAboutImg">
-            <Image src={Sun} alt="sun" />
-          </div>
-          <div className="deskAboutText">
-            <p>{data.aboutText}</p>
-          </div>
-        </div>
+
         <div className="deskRental">
           <div className="deskNail">
             <div className="deskNailLeft">
@@ -315,9 +322,9 @@ export default async function Home() {
               <div className="deskNailTextCont">
                 <h2 className="nailTextTitle">{data.nailTitle}</h2>
                 <p className="nailTextBody">{data.nailText}</p>
-                <Link href={data.loopNetURL}>
+                <a target="_blank" href={data.loopNetURL}>
                   <button className="deskNailBtn">Apply Now</button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -326,9 +333,9 @@ export default async function Home() {
               <div className="deskStudioTextCont">
                 <h2 className="studioTextTitle">{data.studioTitle}</h2>
                 <p className="studioTextBody">{data.studioText}</p>
-                <Link href={data.loopNetURL}>
+                <a target="_blank" href={data.loopNetURL}>
                   <button className="deskStudioBtn">Apply Now</button>
-                </Link>
+                </a>
               </div>
             </div>
             <div className="deskStudioRight">

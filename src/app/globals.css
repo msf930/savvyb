@@ -759,6 +759,14 @@
     background-color: #e3bfc1;
     /* border: 1px solid #af9192; */
   }
+  .heroLogoFillCont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    height: 45vw;
+  }
   .heroImgCont {
     position: relative;
     width: 50vw;
@@ -766,15 +774,17 @@
   }
   .deskBooth {
     width: 100vw;
-    height: 60vh;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #fffbf3;
     border: 1px solid #cdc7bb;
+    padding: 30px 0;
   }
   .deskBoothLeft {
     position: relative;
     width: 50vw;
+    height: 50vh;
   }
   .deskBoothImgCont {
     position: absolute;
@@ -796,12 +806,14 @@
   }
   .deskBoothRight {
     position: relative;
+    display: flex;
+    align-items: center;
+
     width: 50vw;
   }
   .deskBoothTextCont {
-    position: absolute;
-    top: 20%;
-    left: 0%;
+    position: relative;
+    padding: 30px 0;
     /* transform: translate(-50%, -50%); */
     z-index: 4;
   }
@@ -810,7 +822,7 @@
     font-size: 60px;
   }
   .boothTextBody {
-    margin-top: -30px;
+    margin-top: -10px;
     font-family: var(--dm_sans);
     font-size: 13px;
     width: 25vw;
@@ -863,7 +875,7 @@
   }
   .deskRental {
     width: 100vw;
-    height: 60vh;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -871,8 +883,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 50vw;
-    height: 60vh;
-    background-color: #fffbf3;
+    height: auto;
+    background-color: #fff5e7;
     border: 1px solid #8b8378;
   }
   .deskNailLeft {
@@ -880,6 +892,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
+    height: 60vh;
   }
   .deskNailImg {
     width: 162px;
@@ -893,12 +907,11 @@
   }
   .deskNailRight {
     position: relative;
+    align-self: center;
   }
   .deskNailTextCont {
-    position: absolute;
-    top: 20%;
-    left: 0%;
-    /* transform: translate(-50%, -50%); */
+    position: relative;
+    padding: 30px 0;
     z-index: 8;
   }
   .nailTextTitle {
@@ -906,7 +919,7 @@
     font-size: 60px;
   }
   .nailTextBody {
-    margin-top: -30px;
+    margin-top: -10px;
     font-family: var(--dm_sans);
     font-size: 13px;
     width: 23vw;
@@ -923,7 +936,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 50vw;
-    height: 60vh;
+    height: auto;
     background-color: #c5bcae;
     border: 1px solid #8b8378;
   }
@@ -932,10 +945,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
+    height: 60vh;
   }
   .deskStudioImg {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
     width: 126px;
@@ -944,18 +959,20 @@
   }
   .deskStudioRect {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   .deskStudioLeft {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
   }
   .deskStudioTextCont {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    /* transform: translate(-50%, -50%); */
+    position: relative;
+    padding: 30px 0;
     z-index: 8;
   }
   .studioTextTitle {
@@ -963,7 +980,7 @@
     font-size: 60px;
   }
   .studioTextBody {
-    margin-top: -30px;
+    margin-top: -10px;
     font-family: var(--dm_sans);
     font-size: 13px;
     width: 23vw;
@@ -1275,6 +1292,7 @@
     grid-template-columns: 1fr;
   }
   .heroLogoCont {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1282,6 +1300,14 @@
     height: 50vw;
     background-color: #e3bfc1;
     /* border: 1px solid #af9192; */
+  }
+  .heroLogoFillCont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vw;
   }
   .heroImgCont {
     display: none;
@@ -1291,7 +1317,7 @@
   }
   .deskBooth {
     width: 100vw;
-    height: 80vh;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #fffbf3;
@@ -1300,6 +1326,7 @@
   .deskBoothLeft {
     position: relative;
     width: 50vw;
+    height: 50vh;
   }
   .deskBoothImgCont {
     position: absolute;
@@ -1322,12 +1349,14 @@
   .deskBoothRight {
     position: relative;
     width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .deskBoothTextCont {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    /* transform: translate(-50%, -50%); */
+    position: relative;
+    padding: 30px 0;
+    width: 40vw;
     z-index: 4;
   }
   .boothTextTitle {
@@ -1335,11 +1364,11 @@
     font-size: 60px;
   }
   .boothTextBody {
-    margin-top: -30px;
+    margin-top: -10px;
 
     font-family: var(--dm_sans);
     font-size: 13px;
-    width: 30vw;
+    width: auto;
     padding-bottom: 20px;
   }
   .deskBoothBtn {
@@ -1391,16 +1420,16 @@
   }
   .deskRental {
     width: 100vw;
-    height: 150vh;
+    height: auto;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
   }
   .deskNail {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100vw;
     height: auto;
-    background-color: #fffbf3;
+    background-color: #fff5e7;
     border: 1px solid #8b8378;
   }
   .deskNailLeft {
@@ -1408,6 +1437,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50vh;
   }
   .deskNailImg {
     width: 162px;
@@ -1421,12 +1451,14 @@
   }
   .deskNailRight {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
   }
   .deskNailTextCont {
-    position: absolute;
-    top: 20%;
-    left: 0%;
-    /* transform: translate(-50%, -50%); */
+    position: relative;
+    padding: 30px 0;
     z-index: 8;
   }
   .nailTextTitle {
@@ -1434,10 +1466,10 @@
     font-size: 60px;
   }
   .nailTextBody {
-    margin-top: -30px;
+    margin-top: -10px;
     font-family: var(--dm_sans);
     font-size: 13px;
-    width: 30vw;
+    width: 40vw;
     padding-bottom: 20px;
   }
   .deskNailBtn {
@@ -1460,6 +1492,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
+    height: 50vh;
   }
   .deskStudioImg {
     position: absolute;
@@ -1478,12 +1512,13 @@
   }
   .deskStudioLeft {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .deskStudioTextCont {
-    position: absolute;
-    top: 20%;
-    left: 30%;
-    /* transform: translate(-50%, -50%); */
+    position: relative;
+    padding: 30px 0;
     z-index: 8;
   }
   .studioTextTitle {
@@ -1491,10 +1526,10 @@
     font-size: 60px;
   }
   .studioTextBody {
-    margin-top: -30px;
+    margin-top: -10px;
     font-family: var(--dm_sans);
     font-size: 13px;
-    width: 30vw;
+    width: 40vw;
     padding-bottom: 20px;
   }
   .deskStudioBtn {
@@ -1824,6 +1859,14 @@
     background-color: #e3bfc1;
     /* border: 1px solid #af9192; */
   }
+  .heroLogoFillCont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vw;
+  }
   .heroImgCont {
     display: none;
     position: relative;
@@ -1832,7 +1875,7 @@
   }
   .deskBooth {
     width: 100vw;
-    height: 140vh;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #fffbf3;
@@ -1840,6 +1883,7 @@
   }
   .deskBoothLeft {
     position: relative;
+    height: 100vh;
     width: 50vw;
   }
   .deskBoothImgCont {
@@ -1863,11 +1907,13 @@
   .deskBoothRight {
     position: relative;
     width: 50vw;
+    display: flex;
+
+    align-items: center;
   }
   .deskBoothTextCont {
-    position: absolute;
-    top: 20%;
-    left: 10%;
+    position: relative;
+    padding: 30px 0;
     /* transform: translate(-50%, -50%); */
     z-index: 4;
   }
@@ -1876,11 +1922,11 @@
     font-size: 60px;
   }
   .boothTextBody {
-    margin-top: -30px;
+    margin-top: 0px;
 
     font-family: var(--dm_sans);
     font-size: 13px;
-    width: 30vw;
+    width: 35vw;
     padding-bottom: 20px;
   }
   .deskBoothBtn {
@@ -1932,16 +1978,16 @@
   }
   .deskRental {
     width: 100vw;
-    height: 240vh;
+    height: auto;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
   }
   .deskNail {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100vw;
-    height: 120vh;
-    background-color: #fffbf3;
+    height: auto;
+    background-color: #fff5e7;
     border: 1px solid #8b8378;
   }
   .deskNailLeft {
@@ -1949,6 +1995,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80vh;
   }
   .deskNailImg {
     width: 162px;
@@ -1962,11 +2009,13 @@
   }
   .deskNailRight {
     position: relative;
+    display: flex;
+
+    align-items: center;
   }
   .deskNailTextCont {
-    position: absolute;
-    top: 20%;
-    left: 0%;
+    position: relative;
+    padding: 30px 0;
     /* transform: translate(-50%, -50%); */
     z-index: 8;
   }
@@ -1975,7 +2024,7 @@
     font-size: 60px;
   }
   .nailTextBody {
-    margin-top: -30px;
+    margin-top: -10px;
     font-family: var(--dm_sans);
     font-size: 13px;
     width: 30vw;
@@ -1993,7 +2042,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100vw;
-    height: 120vh;
+    height: auto;
     background-color: #c5bcae;
     border: 1px solid #8b8378;
   }
@@ -2002,6 +2051,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80vh;
   }
   .deskStudioImg {
     position: absolute;
@@ -2020,12 +2070,14 @@
   }
   .deskStudioLeft {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .deskStudioTextCont {
-    position: absolute;
-    top: 20%;
-    left: 30%;
-    /* transform: translate(-50%, -50%); */
+    position: relative;
+    height: auto;
+    padding: 30px 0;
     z-index: 8;
   }
   .studioTextTitle {
@@ -2033,7 +2085,7 @@
     font-size: 60px;
   }
   .studioTextBody {
-    margin-top: -30px;
+    margin-top: -10px;
     font-family: var(--dm_sans);
     font-size: 13px;
     width: 30vw;
@@ -2371,6 +2423,14 @@
     background-color: #e3bfc1;
     /* border: 1px solid #af9192; */
   }
+  .heroLogoFillCont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    height: 45vw;
+  }
   .heroImgCont {
     position: relative;
     width: 50vw;
@@ -2378,15 +2438,17 @@
   }
   .deskBooth {
     width: 100vw;
-    height: 60vh;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #fffbf3;
     border: 1px solid #cdc7bb;
+    padding: 30px 0;
   }
   .deskBoothLeft {
     position: relative;
     width: 50vw;
+    height: 50vh;
   }
   .deskBoothImgCont {
     position: absolute;
@@ -2408,13 +2470,15 @@
   }
   .deskBoothRight {
     position: relative;
+    display: flex;
+
+    align-items: center;
     width: 50vw;
+    height: auto;
   }
   .deskBoothTextCont {
-    position: absolute;
-    top: 20%;
-    left: 0%;
-    /* transform: translate(-50%, -50%); */
+    position: relative;
+    margin: 30px 0;
     z-index: 4;
   }
   .boothTextTitle {
@@ -2475,7 +2539,7 @@
   }
   .deskRental {
     width: 100vw;
-    height: 60vh;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -2483,8 +2547,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 50vw;
-    height: 60vh;
-    background-color: #fffbf3;
+    height: auto;
+    background-color: #fff5e7;
     border: 1px solid #8b8378;
   }
   .deskNailLeft {
@@ -2492,6 +2556,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 60vh;
+    align-self: center;
   }
   .deskNailImg {
     width: 162px;
@@ -2505,12 +2571,13 @@
   }
   .deskNailRight {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .deskNailTextCont {
-    position: absolute;
-    top: 20%;
-    left: 0%;
-    /* transform: translate(-50%, -50%); */
+    position: relative;
+    padding: 30px 0;
     z-index: 4;
   }
   .nailTextTitle {
@@ -2518,7 +2585,7 @@
     font-size: 85px;
   }
   .nailTextBody {
-    margin-top: -30px;
+    margin-top: -10px;
     font-family: var(--dm_sans);
     font-size: 13px;
     width: 23vw;
@@ -2535,7 +2602,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 50vw;
-    height: 60vh;
+    height: auto;
     background-color: #c5bcae;
     border: 1px solid #8b8378;
   }
@@ -2544,6 +2611,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
+    height: 60vh;
   }
   .deskStudioImg {
     position: absolute;
@@ -2562,12 +2631,15 @@
   }
   .deskStudioLeft {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
   }
   .deskStudioTextCont {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    /* transform: translate(-50%, -50%); */
+    position: relative;
+    padding: 30px 0;
     z-index: 4;
   }
   .studioTextTitle {
@@ -2575,7 +2647,7 @@
     font-size: 85px;
   }
   .studioTextBody {
-    margin-top: -30px;
+    margin-top: -10px;
     font-family: var(--dm_sans);
     font-size: 13px;
     width: 23vw;
