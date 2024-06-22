@@ -997,7 +997,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100vw;
-    height: 70vh;
+    height: auto;
   }
   .deskFooter {
     height: 20vh;
@@ -1541,9 +1541,9 @@
   }
   .deskUtil {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     width: 100vw;
-    height: 140vh;
+    height: auto;
   }
   .deskFooter {
     height: 60vh;
@@ -2664,7 +2664,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100vw;
-    height: 70vh;
+    height: auto;
   }
   .deskFooter {
     height: 20vh;
